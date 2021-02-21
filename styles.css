@@ -27,6 +27,8 @@ footer {
   padding-bottom: initial;
 }
 .profile-pic {
+  height: 300px;
+  width: 300px;
   border-radius: 12px;
   background-color: aquamarine;
   box-shadow: blue;
@@ -34,7 +36,12 @@ footer {
 .full-name {
   text-align: left;
   font-size: 40px;
-  font-weight: bold;
   color: brown;
   box-shadow: coral;
+}
+.full-name:hover {
+  color: blue;
+}
+strong:hover {
+  color: royalblue;
 }
