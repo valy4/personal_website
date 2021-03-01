@@ -8,6 +8,7 @@
 }
 .nav-item {
   padding: 0.5rem;
+  color: #00a8ff !important;
 }
 .main {
   display: flex;
@@ -36,12 +37,69 @@ footer {
 .full-name {
   text-align: left;
   font-size: 40px;
-  color: brown;
+  color: #9c88ff;
   box-shadow: coral;
 }
 .full-name:hover {
-  color: blue;
+  color: #8c7ae6;
+}
+strong {
+  color: #9c88ff;
 }
 strong:hover {
-  color: royalblue;
+  color: #8c7ae6;
+}
+.section-heading {
+  color: #333;
+  padding-bottom: 10px;
+  line-height: 1em;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  background-image: SDC10623.JPG;
+}
+
+.section-text-container {
+  width: 50%;
+}
+.btn-contact {
+  border-radius: 20px;
+  border: solid black 1px;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn-contact:hover {
+  background-color: purple;
+  color: white;
+}
+.btn-free {
+  border-radius: 20px;
+  border: solid black 1px;
+  color: black;
+  background-color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn-free:hover {
+  background-color: purple;
+  color: white;
+}
+.photo1 {
+  width: 300px;
+}
+.header-link {
+  color: #00a8ff;
+  font-weight: 500;
+  text-decoration: none;
+}
+.header-link:hover {
+  text-decoration: underline;
 }

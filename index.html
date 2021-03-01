@@ -14,9 +14,15 @@
     <header>
       <nav>
         <ul class="nav-list">
-          <li class="nav-item"><a href="/index.html">Home</a></li>
-          <li class="nav-item"><a href="/contact.html">Contact</a></li>
-          <li class="nav-item"><a href="/about.html">About</a></li>
+          <li class="nav-item">
+            <a class="header-link" href="/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="header-link" href="/contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="header-link" href="/about.html">About</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -32,12 +38,50 @@
 
       <img class="profile-pic" src="images/personal-website.jpg" />
     </section>
+    <section class="main">
+      <img class="photo1" src="images/SDC10623.JPG" />
+      <div class="section-text-container">
+        <div class="section-left">
+          <h1 class="section-heading">
+            <span style="font-size: x-large"
+              >I am an aspiring <strong>front-end developer</strong> working
+              with CSS and Javascript.</span
+            >
+          </h1>
+          <p>
+            My main interest is in building beautiful user interfaces using
+            modern technologies. In the future I would like to learn React.js.
+          </p>
+          <button id="btn-1" class="btn-contact">Contact Me</button>
+        </div>
+      </div>
+    </section>
+    <section class="main">
+      <div class="selection-text2-container">
+        <h1 class="section-heading">Bye-bye chaos. Hello Cozi.</h1>
+        <p>
+          Cozi is the must-have organizer for families. It helps coordinate and
+          communicate everyone’s schedules and activities, track grocery lists,
+          manage to do lists, plan ahead for dinner, and keep the whole family
+          on the same page. GET COZI - IT'S FREE!
+        </p>
+        <button class="btn-free">GET COZI- IT'S FREE!</button>
+      </div>
+      <img class="photo1" src="images/SDC10623.JPG" />
+    </section>
 
     <footer>
       <div class="footer-content">
         <p>Beckenham, London</p>
         <p>smeu_valentina@yahoo.com</p>
+        <a href="https://github.com/valy4">GitHub</a>
       </div>
     </footer>
+    <script>
+      document.getElementById("btn-1").addEventListener("click", function () {
+        console.log("great");
+        alert("contact me:smeu_valentina@yahoo.com");
+      });
+    </script>
   </body>
 </html>
