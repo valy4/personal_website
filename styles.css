@@ -92,6 +92,21 @@ strong:hover {
   background-color: purple;
   color: white;
 }
+.btn-hobbies {
+  border-radius: 20px;
+  border: solid black 1px;
+  color: black;
+  background-color: yellow;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn-hobbies:hover {
+  background-color: purple;
+  color: red;
+}
 .photo1 {
   width: 300px;
 }
@@ -102,4 +117,7 @@ strong:hover {
 }
 .header-link:hover {
   text-decoration: underline;
+}
+.subtitle {
+  color: aquamarine;
 }

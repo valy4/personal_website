@@ -31,23 +31,25 @@
         <h1 class="full-name">Smeu Valentina</h1>
 
         <p>I am a future <strong>software engineer</strong> based in London.</p>
-        <p>I love reading, travelling and yoga!</p>
+        <button id="btn-2" class="btn-hobbies">Hobbies</button>
       </div>
-
-      <!--button type="button" class="btn btn-danger">click me!</button-->
 
       <img class="profile-pic" src="images/personal-website.jpg" />
     </section>
     <section class="main">
-      <img class="photo1" src="images/SDC10623.JPG" />
+      <img class="photo1" src="images/pic1.jfif" />
       <div class="section-text-container">
         <div class="section-left">
           <h1 class="section-heading">
             <span style="font-size: x-large"
               >I am an aspiring <strong>front-end developer</strong> working
-              with CSS and Javascript.</span
-            >
+              with CSS and Javascript.
+            </span>
           </h1>
+          <p>
+            I am very passionate and dedicated to my work and always open to
+            learning new technologies and frameworks!>
+          </p>
           <p>
             My main interest is in building beautiful user interfaces using
             modern technologies. In the future I would like to learn React.js.
@@ -67,7 +69,7 @@
         </p>
         <button class="btn-free">GET COZI- IT'S FREE!</button>
       </div>
-      <img class="photo1" src="images/SDC10623.JPG" />
+      <img class="photo1" src="images/pic2.jfif" />
     </section>
 
     <footer>
@@ -80,7 +82,12 @@
     <script>
       document.getElementById("btn-1").addEventListener("click", function () {
         console.log("great");
-        alert("contact me:smeu_valentina@yahoo.com");
+        alert("contact me : smeu_valentina@yahoo.com");
+      });
+    </script>
+    <script>
+      document.getElementById("btn-2").addEventListener("click", function () {
+        alert("Hobbies : driving, reading, travelling and yoga");
       });
     </script>
   </body>
