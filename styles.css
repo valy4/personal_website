@@ -1,117 +1,107 @@
 * {
   font-family: "Roboto", sans-serif;
 }
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url(images/Valentina\ Smeu.png);
+  height: 280px;
+}
 .nav-list {
   list-style-type: none;
   display: flex;
   justify-content: center;
+  font-size: 1.5rem;
 }
 .nav-item {
   padding: 0.5rem;
-  color: #00a8ff !important;
+  color: #f5c842;
 }
+
 .main {
   display: flex;
   max-width: 900px;
   justify-content: space-between;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding: 2rem 1rem;
   border-bottom: 1px solid gainsboro;
+  background-color: #fff2e8;
+}
+.paragraf {
+  text-align: center;
 }
 footer {
   display: flex;
   justify-content: center;
+  background-color: black;
+  color: #f5c842;
+  padding: 1rem;
+  display: flex;
 }
 .footer-content {
   text-align: center;
   padding-bottom: initial;
+  margin-left: 2rem;
+}
+.first-col {
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .profile-pic {
   height: 300px;
   width: 300px;
   border-radius: 12px;
-  background-color: aquamarine;
-  box-shadow: blue;
 }
 .full-name {
-  text-align: left;
-  font-size: 40px;
-  color: #9c88ff;
-  box-shadow: coral;
+  padding-left: 6rem;
+  text-align: center;
+  font-size: 3rem;
+  color: #f56c42;
+  font-family: "Sacramento", cursive;
 }
-.full-name:hover {
-  color: #8c7ae6;
+.descr {
+  font-family: "Sacramento", cursive;
+  padding-left: 6rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #f56c42;
 }
-strong {
-  color: #9c88ff;
-}
-strong:hover {
-  color: #8c7ae6;
-}
+
 .section-heading {
-  color: #333;
+  color: #f56c42;
   padding-bottom: 10px;
   line-height: 1em;
   font-weight: 500;
   display: flex;
   justify-content: center;
-  background-image: SDC10623.JPG;
 }
 
 .section-text-container {
   width: 50%;
 }
-.btn-contact {
-  border-radius: 20px;
-  border: solid black 1px;
-  color: black;
-  background-color: white;
-  text-transform: uppercase;
-  cursor: pointer;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.btn-contact:hover {
-  background-color: purple;
-  color: white;
-}
-.btn-free {
-  border-radius: 20px;
-  border: solid black 1px;
-  color: black;
-  background-color: white;
-  text-transform: uppercase;
-  cursor: pointer;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.btn-free:hover {
-  background-color: purple;
-  color: white;
-}
-.btn-hobbies {
-  border-radius: 20px;
-  border: solid black 1px;
-  color: black;
-  background-color: yellow;
-  text-transform: uppercase;
-  cursor: pointer;
-  padding: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.btn-hobbies:hover {
-  background-color: purple;
-  color: red;
-}
+
 .photo1 {
   width: 300px;
+
+  border-radius: 12px;
+}
+.photo2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
+  align-items: center;
 }
 .header-link {
-  color: #00a8ff;
+  color: #f5c842;
   font-weight: 500;
   text-decoration: none;
 }
@@ -120,4 +110,15 @@ strong:hover {
 }
 .subtitle {
   color: aquamarine;
+}
+.logo {
+  width: 100px;
+}
+
+.git {
+  color: #f5c842;
+  text-decoration: none;
+}
+.selection-text2-container {
+  margin-right: 1rem;
 }

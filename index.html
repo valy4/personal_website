@@ -12,7 +12,8 @@
 
   <body>
     <header>
-      <nav>
+      <nav class="nav">
+        <!-- <img class="logo" src="images/smeu_valentina_logo.png" /> -->
         <ul class="nav-list">
           <li class="nav-item">
             <a class="header-link" href="/index.html">Home</a>
@@ -28,67 +29,100 @@
     </header>
     <section class="main">
       <div>
-        <h1 class="full-name">Smeu Valentina</h1>
+        <div class="first-col">
+          <div class="name">
+            <h1 class="full-name">I`m Valentina,</h1>
 
-        <p>I am a future <strong>software engineer</strong> based in London.</p>
-        <button id="btn-2" class="btn-hobbies">Hobbies</button>
+            <p class="descr">a fullstack web developer.</p>
+          </div>
+          <img class="profile-pic" src="images/personal-website.jpg" />
+        </div>
+        <p class="paragraf">
+          I am a detail-oriented front-end software developer with a passion for
+          building beautiful user interfaces that delight users. I am eager to
+          use my technical skills to contribute as a Frontend Developer in an
+          Agile environment.
+        </p>
+        <p class="paragraf">
+          After traveling around the world for a while I came in touch with
+          programming through my husband’s work and developed a growing interest
+          in it ever since. After a while, I decided to turn my passion into a
+          profession and learned professional front-end skills. At the moment I
+          work as a freelance frontend developer building websites for friends
+          and small businesses with JavaScript, React.js, CSS, and HTML. I am
+          also building my own project to help Yoga users find the best
+          instructors and also instructors get more customers.
+        </p>
+        <p class="paragraf">
+          In my free time, I like to read about technology, I do yoga and I
+          travel whenever I get the chance.
+        </p>
       </div>
-
-      <img class="profile-pic" src="images/personal-website.jpg" />
     </section>
     <section class="main">
       <img class="photo1" src="images/pic1.jfif" />
       <div class="section-text-container">
         <div class="section-left">
-          <h1 class="section-heading">
-            <span style="font-size: x-large"
-              >I am an aspiring <strong>front-end developer</strong> working
-              with CSS and Javascript.
-            </span>
-          </h1>
-          <p>
-            I am very passionate and dedicated to my work and always open to
-            learning new technologies and frameworks!>
-          </p>
-          <p>
+          <h1 class="section-heading">What I do</h1>
+
+          <p class="paragraf">
             My main interest is in building beautiful user interfaces using
-            modern technologies. In the future I would like to learn React.js.
+            modern technologies. Also building frontend projects using the
+            latest JavaScript stack for small businesses while learning more
+            about web development and improving my skills.
           </p>
-          <button id="btn-1" class="btn-contact">Contact Me</button>
+          <p class="paragraf">
+            Technologies: JavaScript, React, Styled Components, Redux,
+            Bootstrap, SAAS, Less, CSS, GraphQL
+          </p>
         </div>
       </div>
     </section>
     <section class="main">
       <div class="selection-text2-container">
-        <h1 class="section-heading">Bye-bye chaos. Hello Cozi.</h1>
-        <p>
-          Cozi is the must-have organizer for families. It helps coordinate and
-          communicate everyone’s schedules and activities, track grocery lists,
-          manage to do lists, plan ahead for dinner, and keep the whole family
-          on the same page. GET COZI - IT'S FREE!
-        </p>
-        <button class="btn-free">GET COZI- IT'S FREE!</button>
+        <h1 class="section-heading">Projects</h1>
+
+        <h1>Wonderful Recipes</h1>
+        <ol>
+          <li>
+            used React.js for the client-side to build an aggregation platform
+            for different cooking recipes focused on vegan recipes.
+          </li>
+          <li>
+            used React.js for building the frontend and styled components for
+            the styling
+          </li>
+          <li>
+            deep focus on responsive design and performance particularly on the
+            client-side
+          </li>
+          <li>
+            built following web standards and accessibility in mind without
+            sacrificing user experience
+          </li>
+        </ol>
+        <li>
+          Technologies: JavaScript, React, Styled Components, Redux, Bootstrap,
+          SAAS, Less, HTML CSS, GraphQL, Netlify, Responsive Design, Cypress,
+          End-to-end Testing
+        </li>
+        <li>
+          Live demo:
+          <a href="https://wonderful-recipes-react.netlify.app/"
+            ><strong>Wonderful Recipes</strong></a
+          >
+        </li>
       </div>
-      <img class="photo1" src="images/pic2.jfif" />
+      <img class="photo2" src="images/wonderful-recipes-img (2).png" />
     </section>
 
     <footer>
+      <img class="logo" src="images/smeu_valentina_logo.png" />
       <div class="footer-content">
         <p>Beckenham, London</p>
-        <p>smeu_valentina@yahoo.com</p>
-        <a href="https://github.com/valy4">GitHub</a>
+        <p>smeu.valentina33@gmail.com</p>
+        <a class="git" href="https://github.com/valy4">GitHub</a>
       </div>
     </footer>
-    <script>
-      document.getElementById("btn-1").addEventListener("click", function () {
-        console.log("great");
-        alert("contact me : smeu_valentina@yahoo.com");
-      });
-    </script>
-    <script>
-      document.getElementById("btn-2").addEventListener("click", function () {
-        alert("Hobbies : driving, reading, travelling and yoga");
-      });
-    </script>
   </body>
 </html>
