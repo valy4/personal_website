@@ -1,5 +1,5 @@
 * {
-  font-family: "Roboto", sans-serif;
+  font-family: "Vollkorn", serif;
 }
 .nav {
   display: flex;
@@ -28,7 +28,7 @@
   margin-bottom: 2rem;
   padding: 2rem 1rem;
   border-bottom: 1px solid gainsboro;
-  background-color: #fff2e8;
+  background-color: #f7f7da;
 }
 .paragraf {
   text-align: center;
@@ -65,19 +65,19 @@ footer {
   padding-left: 6rem;
   text-align: center;
   font-size: 3rem;
-  color: #f56c42;
-  font-family: "Sacramento", cursive;
+  color: #f5c842;
+  font-family: "Dancing Script", cursive;
 }
 .descr {
-  font-family: "Sacramento", cursive;
+  font-family: "Dancing Script", cursive;
   padding-left: 6rem;
   text-align: center;
   font-size: 2rem;
-  color: #f56c42;
+  color: #f5c842;
 }
 
 .section-heading {
-  color: #f56c42;
+  color: #f5c842;
   padding-bottom: 10px;
   line-height: 1em;
   font-weight: 500;
@@ -98,7 +98,7 @@ footer {
   width: 300px;
   height: 300px;
   border-radius: 12px;
-  align-items: center;
+  align-self: center;
 }
 .header-link {
   color: #f5c842;
@@ -118,7 +118,48 @@ footer {
 .git {
   color: #f5c842;
   text-decoration: none;
+  padding-right: 1rem;
+}
+.git:hover {
+  text-decoration: underline;
 }
 .selection-text2-container {
   margin-right: 1rem;
+}
+.url {
+  text-decoration: none;
+  color: #f5c842;
+}
+.url:hover {
+  text-decoration: underline;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  background: #f5c842;
+  border: 1px solid #f5c842;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-family: "Vollkorn", serif;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fa6f05;
+  color: black;
+  text-decoration: none;
+}
+.code-img {
+  float: left;
+  margin-right: 30px;
+  width: 30%;
+  border-radius: 50%;
+}
+.code {
+  display: flex;
 }

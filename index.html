@@ -3,6 +3,16 @@
   <head>
     <title>Smeu Valentina - software engineer</title>
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Vollkorn&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
       rel="stylesheet"
@@ -16,18 +26,21 @@
         <!-- <img class="logo" src="images/smeu_valentina_logo.png" /> -->
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="header-link" href="/index.html">Home</a>
+            <a class="header-link" href="#about">About</a>
           </li>
-          <li class="nav-item">
-            <a class="header-link" href="/contact.html">Contact</a>
-          </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="header-link" href="/about.html">About</a>
+          </li> -->
+          <li class="nav-item">
+            <a class="header-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="header-link" href="#footer">Contact</a>
           </li>
         </ul>
       </nav>
     </header>
-    <section class="main">
+    <section id="about" class="main">
       <div>
         <div class="first-col">
           <div class="name">
@@ -78,7 +91,7 @@
         </div>
       </div>
     </section>
-    <section class="main">
+    <section id="projects" class="main">
       <div class="selection-text2-container">
         <h1 class="section-heading">Projects</h1>
 
@@ -108,20 +121,38 @@
         </li>
         <li>
           Live demo:
-          <a href="https://wonderful-recipes-react.netlify.app/"
+          <a class="url" href="https://wonderful-recipes-react.netlify.app/"
             ><strong>Wonderful Recipes</strong></a
           >
         </li>
       </div>
       <img class="photo2" src="images/wonderful-recipes-img (2).png" />
     </section>
-
+    <section id="footer" class="main">
+      <div class="code">
+        <img class="code-img" src="images/computer.png" />
+        <div class="contact">
+          <h1 class="section-heading">Get In Touch</h1>
+          <p class="paragraf">
+            Exceptionally creative and dependable Junior Web Developer with
+            stellar customer service and superb work ethic, ready to start my
+            new career adventure!
+          </p>
+          <a class="btn" href="mailto:smeu.valentina33@gmail.com">CONTACT ME</a>
+        </div>
+      </div>
+    </section>
     <footer>
       <img class="logo" src="images/smeu_valentina_logo.png" />
       <div class="footer-content">
         <p>Beckenham, London</p>
         <p>smeu.valentina33@gmail.com</p>
-        <a class="git" href="https://github.com/valy4">GitHub</a>
+        <div>
+          <a class="git" href="https://github.com/valy4">GitHub</a>
+          <a class="git" href="https://www.linkedin.com/in/valentina-smeu/"
+            >LinkedIn</a
+          >
+        </div>
       </div>
     </footer>
   </body>
