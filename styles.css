@@ -142,7 +142,7 @@ footer {
   background: #f5c842;
   border: 1px solid #f5c842;
   color: #ffffff;
-  padding: 0.9rem 1.2rem;
+  padding: 0.9rem 1rem;
   border-radius: 8px;
   font-family: "Vollkorn", serif;
   font-size: 1.2rem;
@@ -172,9 +172,7 @@ footer {
     max-height: 600px;
   }
   .logo {
-    width: 120px;
-    height: 40px;
-    max-width: 60%;
+    height: 90px;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 576px) {
@@ -186,8 +184,6 @@ footer {
     max-height: 600px;
   }
   .logo {
-    width: 120px;
-    height: 40px;
-    max-width: 80%;
+    height: 70px;
   }
 }
