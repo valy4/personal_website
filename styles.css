@@ -142,10 +142,10 @@ footer {
   background: #f5c842;
   border: 1px solid #f5c842;
   color: #ffffff;
-  padding: 10px 20px;
+  padding: 0.9rem 1.2rem;
   border-radius: 8px;
   font-family: "Vollkorn", serif;
-  font-size: 20px;
+  font-size: 1.2rem;
   text-decoration: none;
 }
 
@@ -162,4 +162,32 @@ footer {
 }
 .code {
   display: flex;
+}
+@media only screen and (max-width: 576px) {
+  .nav {
+    max-height: 100px;
+  }
+  .photo1 {
+    max-width: 300px;
+    max-height: 600px;
+  }
+  .logo {
+    width: 120px;
+    height: 40px;
+    max-width: 60%;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+  .main {
+    max-width: 500px;
+  }
+  .photo1 {
+    max-width: 300px;
+    max-height: 600px;
+  }
+  .logo {
+    width: 120px;
+    height: 40px;
+    max-width: 80%;
+  }
 }
