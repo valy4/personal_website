@@ -1,11 +1,17 @@
-* {
-  font-family: "Vollkorn", serif;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+.all {
+  background-color: #e0fbfc;
 }
 .nav {
   display: flex;
   justify-content: space-evenly;
-  background-image: url(images/Valentina\ Smeu.png);
-  height: 280px;
+  background-color: #253237;
+  height: 100px;
 }
 .nav-list {
   list-style-type: none;
@@ -15,29 +21,159 @@
 }
 .nav-item {
   padding: 0.5rem;
-  color: #f5c842;
+  color: #e0fbfc;
+}
+.header-link {
+  color: #e0fbfc;
+  font-weight: 500;
+  text-decoration: none;
+}
+.header-link:hover {
+  text-decoration: underline;
 }
 
 .main {
   display: flex;
-  max-width: 900px;
-  justify-content: space-between;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  padding: 2rem 1rem;
-  border-bottom: 1px solid gainsboro;
-  background-color: #f7f7da;
+  align-items: center;
+  height: 700px;
+  width: 100%;
+  justify-content: center;
+  padding: 3rem;
+  background-color: #e0fbfc;
+  align-items: center;
+  color: #1b4965;
 }
+.main-2 {
+  display: flex;
+  justify-content: center;
+
+  width: 100%;
+  flex-direction: column;
+  background-color: #c2dfe3;
+  color: #1b4965;
+  padding: 3rem;
+}
+.main-3 {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  background-color: #c2dfe3;
+  color: #1b4965;
+}
+.main-5 {
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  background-color: #e0fbfc;
+  color: #1b4965;
+  padding: 3rem;
+}
+
+.main-4 {
+  display: flex;
+
+  height: 700px;
+  width: 100%;
+  padding: 3rem;
+  background-color: #e0fbfc;
+  align-items: center;
+  color: #1b4965;
+}
+.name {
+  display: flex;
+  flex-direction: column;
+
+  font-size: 60rem;
+}
+.full-name {
+  font-size: 4rem;
+  color: #1b4965;
+  font-family: "Montserrat", serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-direction: normal;
+  box-sizing: border-box;
+  margin: 0.67em 0;
+  margin-top: 0px;
+  font-weight: 400;
+  letter-spacing: -2.5px;
+  line-height: 1.3em;
+  margin-bottom: 27px;
+}
+
 .paragraf {
   text-align: center;
+  color: #1b4965;
 }
+.profile-pic {
+  margin-right: 50px;
+  width: 90%;
+  border-radius: 5px;
+  max-width: 400px;
+}
+.descr {
+  font-family: "Montserrat", sans-serif;
+  text-align: start;
+  color: #1b4965;
+  font-size: 2rem;
+  line-height: 30px;
+  letter-spacing: -0.5px;
+}
+.first-col {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.second-col {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+}
+.text-about {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  text-align: justify;
+}
+
+.section-text-container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.about-me {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+}
+.photo1 {
+  width: 50%;
+  height: 500px;
+  border-radius: 5px;
+}
+.photo2 {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  margin-bottom: 2rem;
+}
+
 footer {
   display: flex;
   justify-content: center;
   background-color: black;
-  color: #f5c842;
+  color: #c2dfe3;
   padding: 1rem;
   display: flex;
 }
@@ -46,89 +182,37 @@ footer {
   padding-bottom: initial;
   margin-left: 2rem;
 }
-.first-col {
-  display: flex;
-  justify-content: space-between;
-}
-.name {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.profile-pic {
-  height: 300px;
-  width: 300px;
-  border-radius: 12px;
-}
-.full-name {
-  padding-left: 6rem;
-  text-align: center;
-  font-size: 3rem;
-  color: #f5c842;
-  font-family: "Dancing Script", cursive;
-}
-.descr {
-  font-family: "Dancing Script", cursive;
-  padding-left: 6rem;
-  text-align: center;
-  font-size: 2rem;
-  color: #f5c842;
-}
 
 .section-heading {
-  color: #f5c842;
-  padding-bottom: 10px;
-  line-height: 1em;
+  color: #1b4965;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.section-heading-projects {
+  color: #1b4965;
+  font-size: 1.5rem;
   font-weight: 500;
   display: flex;
   justify-content: center;
+  padding-bottom: 2rem;
 }
 
-.section-text-container {
-  width: 50%;
-}
-
-.photo1 {
-  width: 300px;
-
-  border-radius: 12px;
-}
-.photo2 {
-  width: 300px;
-  height: 300px;
-  border-radius: 12px;
-  align-self: center;
-}
-.header-link {
-  color: #f5c842;
-  font-weight: 500;
-  text-decoration: none;
-}
-.header-link:hover {
-  text-decoration: underline;
-}
-.subtitle {
-  color: aquamarine;
-}
 .logo {
   width: 100px;
 }
 
 .git {
-  color: #f5c842;
+  color: #c2dfe3;
   text-decoration: none;
   padding-right: 1rem;
 }
 .git:hover {
   text-decoration: underline;
 }
-.selection-text2-container {
-  margin-right: 1rem;
-}
+
 .url {
   text-decoration: none;
-  color: #f5c842;
+  color: #1b4965;
 }
 .url:hover {
   text-decoration: underline;
@@ -139,19 +223,19 @@ footer {
   align-items: center;
 }
 .btn {
-  background: #f5c842;
-  border: 1px solid #f5c842;
-  color: #ffffff;
-  padding: 0.9rem 1rem;
+  background: #1b4965;
+  border: 1px solid #1b4965;
+  color: #e0fbfc;
+  padding: 0.7rem 0.9rem;
   border-radius: 8px;
   font-family: "Vollkorn", serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #fa6f05;
-  color: black;
+  background: #c2dfe3;
+  color: #1b4965;
   text-decoration: none;
 }
 .code-img {
@@ -163,6 +247,17 @@ footer {
 .code {
   display: flex;
 }
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.selection-text2-container {
+  display: flex;
+  flex-direction: column;
+}
+
 @media only screen and (max-width: 576px) {
   .nav {
     max-height: 100px;

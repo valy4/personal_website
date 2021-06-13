@@ -1,62 +1,66 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Smeu Valentina - software engineer</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Vollkorn&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
 
-  <body>
-    <header>
-      <nav class="nav">
-        <!-- <img class="logo" src="images/smeu_valentina_logo.png" /> -->
-        <ul class="nav-list">
-          <li class="nav-item">
-            <a class="header-link" href="#about">About</a>
-          </li>
-          <!-- <li class="nav-item">
+<head>
+  <title>Smeu Valentina - software engineer</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item">
+          <a class="header-link" href="#about">About</a>
+        </li>
+        <!-- <li class="nav-item">
             <a class="header-link" href="/about.html">About</a>
           </li> -->
-          <li class="nav-item">
-            <a class="header-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="header-link" href="#footer">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+        <li class="nav-item">
+          <a class="header-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="header-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <section class="all">
     <section id="about" class="main">
-      <div>
-        <div class="first-col">
-          <div class="name">
-            <h1 class="full-name">I`m Valentina,</h1>
+      <div class="first-col">
+        <img class="profile-pic" src="images/personal-website.jpg" />
+      </div>
 
-            <p class="descr">a fullstack web developer.</p>
-          </div>
-          <img class="profile-pic" src="images/personal-website.jpg" />
+      <div class="second-col">
+        <div class="name">
+          <h1 class="full-name">Valentina Smeu</h1>
+          <p class="descr">Front-end web developer</p>
         </div>
+        <div>
+
+    </section>
+    <section class="main-3">
+      <div class="section-text-container">
+        <h1 class="paragraf"> Front-end software developer with a passion for
+          building beautiful user interfaces that delight users.</h1>
         <p class="paragraf">
-          I am a detail-oriented front-end software developer with a passion for
-          building beautiful user interfaces that delight users. I am eager to
-          use my technical skills to contribute as a Frontend Developer in an
-          Agile environment.
+          My main interest is in building beautiful user interfaces using
+          modern technologies. Also building frontend projects using the
+          latest JavaScript stack for small businesses.
+
         </p>
-        <p class="paragraf">
+      </div>
+
+    </section>
+    <section class="main-4">
+      <div class="about-me">
+        <h1 class="section-heading">ABOUT ME</h1>
+        <p>
           After traveling around the world for a while I came in touch with
           programming through my husband’s work and developed a growing interest
           in it ever since. After a while, I decided to turn my passion into a
@@ -64,96 +68,77 @@
           work as a freelance frontend developer building websites for friends
           and small businesses with JavaScript, React.js, CSS, and HTML. I am
           also building my own project to help Yoga users find the best
-          instructors and also instructors get more customers.
+          instructors and also instructors get more customers. </p>
         </p>
-        <p class="paragraf">
+        <p>
           In my free time, I like to read about technology, I do yoga and I
           travel whenever I get the chance.
         </p>
       </div>
-    </section>
-    <section class="main">
-      <img class="photo1" src="images/pic1.jfif" />
-      <div class="section-text-container">
-        <div class="section-left">
-          <h1 class="section-heading">What I do</h1>
+      <img class="photo1" src="images/woman-using-laptop-check-cpu-temp.jpg" />
 
-          <p class="paragraf">
-            My main interest is in building beautiful user interfaces using
-            modern technologies. Also building frontend projects using the
-            latest JavaScript stack for small businesses while learning more
-            about web development and improving my skills.
-          </p>
-          <p class="paragraf">
-            Technologies: JavaScript, React, Styled Components, Redux,
-            Bootstrap, SAAS, Less, CSS, GraphQL
-          </p>
-        </div>
-      </div>
     </section>
-    <section id="projects" class="main">
+    <section id="projects" class="main-2">
+
+        <h1 class="section-heading-projects">PROJECTS</h1>
+
+        <div class="projects-list">
+        <div class="selection-text2-container">
+        <img class="photo2" src="images/wonderful-recipes.png" />
+        <button class="btn">
+          See Live
+          <a  href="https://wonderful-recipes-react.netlify.app/"></a>
+        </button>
+      </div>
       <div class="selection-text2-container">
-        <h1 class="section-heading">Projects</h1>
-
-        <h1>Wonderful Recipes</h1>
-        <ol>
-          <li>
-            used React.js for the client-side to build an aggregation platform
-            for different cooking recipes focused on vegan recipes.
-          </li>
-          <li>
-            used React.js for building the frontend and styled components for
-            the styling
-          </li>
-          <li>
-            deep focus on responsive design and performance particularly on the
-            client-side
-          </li>
-          <li>
-            built following web standards and accessibility in mind without
-            sacrificing user experience
-          </li>
-        </ol>
-        <li>
-          Technologies: JavaScript, React, Styled Components, Redux, Bootstrap,
-          SAAS, Less, HTML CSS, GraphQL, Netlify, Responsive Design, Cypress,
-          End-to-end Testing
-        </li>
-        <li>
-          Live demo:
-          <a class="url" href="https://wonderful-recipes-react.netlify.app/"
-            ><strong>Wonderful Recipes</strong></a
-          >
-        </li>
+        <img class="photo2" src="images/star-wars-project.png" />
+        <button class="btn">Source Code </button>
       </div>
-      <img class="photo2" src="images/wonderful-recipes-img (2).png" />
+      <div class="selection-text2-container">
+        <img class="photo2" src="images/to-do-list-app.png" />
+       <button class="btn">Source Code </button>
+      </div>
+      </div>
+      <div class="projects-list">
+<div class="selection-text2-container">
+        <img class="photo2" src="images/weather-app.png" />
+       <button class="btn">Source Code </button>
+      </div>
+      <div class="selection-text2-container">
+        <img class="photo2" src="images/movie-catalog.png" />
+      <button class="btn">Source Code </button>
+      </div>
+      <div class="selection-text2-container">
+        <img class="photo2" src="images/magic-oracle.png" />
+       <button class="btn">Source Code </button>
+      </div>
+      </div>
+
+
     </section>
-    <section id="footer" class="main">
-      <div class="code">
-        <img class="code-img" src="images/computer.png" />
-        <div class="contact">
-          <h1 class="section-heading">Get In Touch</h1>
+     <section id="contact" class="main-5">
+        <div class="section-text-container">
+          <h1 class="section-heading">GET IN TOUCH</h1>
           <p class="paragraf">
             Exceptionally creative and dependable Junior Web Developer with
             stellar customer service and superb work ethic, ready to start my
             new career adventure!
           </p>
           <a class="btn" href="mailto:smeu.valentina33@gmail.com">CONTACT ME</a>
-        </div>
       </div>
     </section>
-    <footer>
-      <img class="logo" src="images/smeu_valentina_logo.png" />
-      <div class="footer-content">
-        <p>Beckenham, London</p>
-        <p>smeu.valentina33@gmail.com</p>
-        <div>
-          <a class="git" href="https://github.com/valy4">GitHub</a>
-          <a class="git" href="https://www.linkedin.com/in/valentina-smeu/"
-            >LinkedIn</a
-          >
-        </div>
+  </section>
+  <footer>
+    <img class="logo" src="images/smeu_valentina_logo.png" />
+    <div class="footer-content">
+      <p>Beckenham, London</p>
+      <p>smeu.valentina33@gmail.com</p>
+      <div>
+        <a class="git" href="https://github.com/valy4">GitHub</a>
+        <a class="git" href="https://www.linkedin.com/in/valentina-smeu/">LinkedIn</a>
       </div>
-    </footer>
-  </body>
+    </div>
+  </footer>
+</body>
+
 </html>
