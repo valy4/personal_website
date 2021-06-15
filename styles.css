@@ -49,14 +49,16 @@
 
   width: 100%;
   flex-direction: column;
-  background-color: #c2dfe3;
-  color: #1b4965;
+  background-color:
+  color:#1b4965;
   padding: 3rem;
 }
 .main-3 {
   display: flex;
-  height: 400px;
+  height: 600px;
   justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: #c2dfe3;
   color: #1b4965;
 }
@@ -64,7 +66,7 @@
   display: flex;
   height: 400px;
   justify-content: center;
-  background-color: #e0fbfc;
+  background-color: #c2dfe3;
   color: #1b4965;
   padding: 3rem;
 }
@@ -109,6 +111,7 @@
   width: 90%;
   border-radius: 5px;
   max-width: 400px;
+  transition: opacity(500ms ease 0s);
 }
 .profile-pic:hover {
   -moz-box-shadow: 0 0 10px #1b4965;
@@ -146,12 +149,20 @@
 }
 
 .section-text-container {
-  width: 50%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 70%;
   text-align: justify;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+.get-in-touch{
+ width: 70%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ flex-direction: column;
+  text-align: justify;
+color: #1b4965;
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -166,12 +177,14 @@
   width: 50%;
   height: 500px;
   border-radius: 5px;
+  transition: 0.5s;
 }
 .photo2 {
-  width: 300px;
+  max-width: 100%;
   height: 300px;
   border-radius: 5px;
   margin-bottom: 2rem;
+  object-fit: cover;
 }
 .photo2:hover {
   -moz-box-shadow: 0 0 50px #1b4965;
@@ -182,7 +195,7 @@
 footer {
   display: flex;
   justify-content: center;
-  background-color: black;
+  background-color: #253237;
   color: #c2dfe3;
   padding: 1rem;
   display: flex;
@@ -284,7 +297,29 @@ footer {
   display: flex;
   flex-direction: column;
 }
+.calendar {
+  background-color: #1b4965;
+  color: #c2dfe3;
+  height: 241px;
+}
 
+.contrib-number {
+  color: #c2dfe3 !important;
+}
+.icon {
+  height: 56px;
+  width: 56px;
+  margin-right: 2rem;
+}
+.icons {
+  display: flex;
+  height: 300px;
+  justify-content: center;
+align-items: center;
+  background-color: #c2dfe3;
+  color: #1b4965;
+
+}
 @media only screen and (max-width: 576px) {
   .nav {
     max-height: 100px;

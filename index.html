@@ -8,8 +8,14 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap"
     rel="stylesheet">
+ <link rel="stylesheet" href="styles.css" />
+  <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js">
+  </script>
+  <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css" />
 
-  <link rel="stylesheet" href="styles.css" />
+
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"> -->
+
 </head>
 
 <body>
@@ -19,9 +25,7 @@
         <li class="nav-item">
           <a class="header-link" href="#about">About</a>
         </li>
-        <!-- <li class="nav-item">
-            <a class="header-link" href="/about.html">About</a>
-          </li> -->
+
         <li class="nav-item">
           <a class="header-link" href="#projects">Projects</a>
         </li>
@@ -56,8 +60,18 @@
 
         </p>
       </div>
-
+       <div class="calendar">
+        Loading the data just for you.
+        <script>
+        GitHubCalendar(".calendar", "valy4");
+      </script>
+      </div>
     </section>
+
+
+
+
+
     <section class="main-4">
       <div class="about-me">
         <h1 class="section-heading">ABOUT ME</h1>
@@ -79,46 +93,60 @@
       <img class="photo1" src="images/woman-using-laptop-check-cpu-temp.jpg" />
 
     </section>
+
+
+      <section class="icons">
+<img class="icon" src="images/javascript.png"/>
+<img class="icon" src="images/react.png"/>
+<img class="icon" src="images/node.png"/>
+<img class="icon" src="images/bootstrap.png"/>
+<img class="icon" src="images/redux.png"/>
+<img class="icon" src="images/less.png"/>
+<img class="icon" src="images/html-logo.png"/>
+<img class="icon" src="images/css-logo.png"/>
+<img class="icon" src="images/github.png"/>
+
+
+
+
+    </section>
     <section id="projects" class="main-2">
 
       <h1 class="section-heading-projects">PROJECTS</h1>
 
       <div class="projects-list">
         <div class="selection-text2-container">
-          <img class="photo2" src="images/wonderful-recipes.png" />
-          <button class="btn2">
-            See Live
-            <a href="https://wonderful-recipes-react.netlify.app/"></a>
-          </button>
+          <a href="https://wonderful-recipes-react.netlify.app/"><img class="photo2" src="images/wonderful-recipes.png" /></a>
+
         </div>
         <div class="selection-text2-container">
           <img class="photo2" src="images/star-wars-project.png" />
-          <button class="btn2">Source Code </button>
+          <!-- <button class="btn2">Source Code </button> -->
         </div>
         <div class="selection-text2-container">
           <img class="photo2" src="images/to-do-list-app.png" />
-          <button class="btn2">Source Code </button>
+          <!-- <button class="btn2">Source Code </button> -->
         </div>
-      </div>
-      <div class="projects-list">
+
+
         <div class="selection-text2-container">
           <img class="photo2" src="images/weather-app.png" />
-          <button class="btn2">Source Code </button>
+          <!-- <button class="btn2">Source Code </button> -->
         </div>
         <div class="selection-text2-container">
           <img class="photo2" src="images/movie-catalog.png" />
-          <button class="btn2">Source Code </button>
+          <!-- <button class="btn2">Source Code </button> -->
         </div>
         <div class="selection-text2-container">
           <img class="photo2" src="images/magic-oracle.png" />
-          <button class="btn2">Source Code </button>
+          <!-- <button class="btn2">Source Code </button> -->
         </div>
       </div>
 
 
     </section>
     <section id="contact" class="main-5">
-      <div class="section-text-container">
+      <div class="get-in-touch">
         <h1 class="section-heading">GET IN TOUCH</h1>
         <p class="paragraf">
           Exceptionally creative and dependable Junior Web Developer with
