@@ -46,11 +46,9 @@
 .main-2 {
   display: flex;
   justify-content: center;
-
   width: 100%;
   flex-direction: column;
-  background-color:
-  color:#1b4965;
+  background-color: #e0fbfc;
   padding: 3rem;
 }
 .main-3 {
@@ -155,14 +153,14 @@
   margin-left: 2rem;
   margin-right: 2rem;
 }
-.get-in-touch{
- width: 70%;
- display: flex;
- justify-content: center;
- align-items: center;
- flex-direction: column;
+.get-in-touch {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: justify;
-color: #1b4965;
+  color: #1b4965;
   margin-left: 2rem;
   margin-right: 2rem;
 }
@@ -180,7 +178,7 @@ color: #1b4965;
   transition: 0.5s;
 }
 .photo2 {
-  max-width: 100%;
+  width: 650px;
   height: 300px;
   border-radius: 5px;
   margin-bottom: 2rem;
@@ -314,10 +312,9 @@ footer {
   display: flex;
   height: 300px;
   justify-content: center;
-align-items: center;
+  align-items: center;
   background-color: #c2dfe3;
   color: #1b4965;
-
 }
 @media only screen and (max-width: 576px) {
   .nav {
