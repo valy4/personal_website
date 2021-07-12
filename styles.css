@@ -327,6 +327,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: auto;
   }
   .first-col {
     width: 100%;
@@ -368,6 +369,7 @@ footer {
   }
   .main-4 {
     padding: 1rem;
+    height: auto;
   }
   .about-me {
     margin-left: 1rem;
@@ -395,7 +397,15 @@ footer {
     padding-bottom: 0;
   }
   .main-5 {
-    padding: 1rem;
+    padding: 0px;
+  }
+  .get-in-touch {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  footer {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .logo {
