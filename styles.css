@@ -397,7 +397,8 @@ footer {
     padding: 1rem;
   }
   .logo {
-    max-width: 100%;
+    height: 56px;
+    width: 56px;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 481px) {
