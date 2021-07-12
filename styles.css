@@ -316,25 +316,92 @@ footer {
   background-color: #c2dfe3;
   color: #1b4965;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 480px) {
   .nav {
     max-height: 100px;
   }
-  .photo1 {
-    max-width: 300px;
-    max-height: 600px;
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  .logo {
-    height: 90px;
+  .first-col {
+    width: 100%;
+  }
+
+  .profile-pic {
+    width: 300px;
+    height: 300px;
+    margin-right: 0px;
+    margin-top: 1.5rem;
+  }
+  .second-col {
+    width: 100%;
+  }
+  .name {
+  }
+
+  .full-name {
+    font-size: 3.5rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .descr {
+    text-align: center;
+    margin-top: auto;
+  }
+  .photo1 {
+    display: none;
+  }
+  .section-heading {
+    text-align: center;
+  }
+
+  .calendar {
+    max-width: 100%;
+  }
+  svg {
+    max-width: 100%;
+  }
+  .main-4 {
+    padding: 1rem;
+  }
+  .about-me {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon {
+    margin-right: 3rem;
+    margin-left: 2rem;
+  }
+  .main-2 {
+    margin-top: 1rem;
+    padding: 0.5rem;
+  }
+  .photo2 {
+    max-width: 100%;
+  }
+  .section-heading-projects {
+    padding-top: 1rem;
+    padding-bottom: 0;
+  }
+  .main-5 {
+    padding: 1rem;
   }
 }
-@media only screen and (max-width: 768px) and (min-width: 576px) {
+@media only screen and (max-width: 768px) and (min-width: 481px) {
   .main {
-    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
-  .photo1 {
-    max-width: 300px;
-    max-height: 600px;
+  .profile-pic {
+    width: 300px;
+    height: 300px;
   }
   .logo {
     height: 70px;
