@@ -338,11 +338,9 @@ footer {
   .second-col {
     width: 100%;
   }
-  .name {
-  }
 
   .full-name {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     margin-top: 1rem;
     text-align: center;
   }
@@ -399,11 +397,54 @@ footer {
     flex-direction: column;
     justify-content: center;
   }
+  .first-col {
+    width: 100%;
+  }
+
   .profile-pic {
     width: 300px;
     height: 300px;
+    margin-right: 0px;
+    margin-top: 1.5rem;
   }
-  .logo {
-    height: 70px;
+  .second-col {
+    width: 100%;
+    display: block;
+  }
+  .full-name {
+    font-size: 3.2rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  .descr {
+    text-align: center;
+    margin-top: auto;
+  }
+  .calendar {
+    max-width: 100%;
+  }
+  svg {
+    max-width: 100%;
+  }
+  .main-4 {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  .photo1 {
+    object-fit: cover;
+    height: 250px;
+    width: 300px;
+  }
+  .section-heading {
+    text-align: center;
+  }
+  .icons {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon {
+    margin-right: 3rem;
+    margin-left: 2rem;
   }
 }
