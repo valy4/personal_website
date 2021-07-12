@@ -224,11 +224,11 @@ footer {
 
 .git {
   color: #c2dfe3;
-  text-decoration: none;
+  text-decoration: underline;
   padding-right: 1rem;
 }
 .git:hover {
-  text-decoration: underline;
+  text-decoration: wavy;
 }
 
 .url {
@@ -343,13 +343,14 @@ footer {
   }
 
   .full-name {
-    font-size: 3.2rem;
+    font-size: 2rem;
     margin-top: 1rem;
     text-align: center;
   }
   .descr {
     text-align: center;
     margin-top: auto;
+    font-size: 1.5rem;
   }
   .photo1 {
     display: none;
