@@ -299,16 +299,16 @@ footer {
   text-decoration: none;
   width: 10rem;
   cursor: pointer;
-  box-shadow: 0 9px #999;
+  box-shadow: 0 9px #c2dfe3;
 }
 .btn2:hover {
   /* background-color: #253237; */
-  box-shadow: 0 5px #666;
+  box-shadow: 0 5px #c2dfe3;
   text-decoration: none;
 }
 .btn2:active {
   background-color: #1b4965;
-  box-shadow: 0 5px #666;
+  box-shadow: 0 5px #c2dfe3;
   transform: translateY(4px);
 }
 .code-img {
@@ -471,6 +471,10 @@ footer {
     height: 70px;
     width: 70px;
     margin-top: 1.5rem;
+  }
+  .btn2 {
+    text-align: center;
+    height: 2rem;
   }
 }
 @media only screen and (max-width: 768px) and (min-width: 481px) {
