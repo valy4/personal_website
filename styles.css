@@ -384,27 +384,32 @@ footer {
   }
   .first-col {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .profile-pic {
-    width: 300px;
-    height: 300px;
-    margin-right: 0px;
+    width: 200px;
+    height: 200px;
     margin-top: 1.5rem;
   }
   .second-col {
     width: 100%;
+    display: flex;
+    justify-content: center;
   }
 
   .full-name {
     font-size: 2rem;
-    margin-top: 1rem;
+    margin-top: 3rem;
     text-align: center;
+    padding-left: 25px;
   }
   .descr {
     text-align: center;
     margin-top: auto;
     font-size: 1.5rem;
+    padding-left: 25px;
   }
   .photo1 {
     display: none;
@@ -482,9 +487,9 @@ footer {
   }
 
   .profile-pic {
-    width: 300px;
-    height: 300px;
-    margin-right: 0px;
+    width: 200px;
+    height: 200px;
+    /* margin-right: 0px; */
     margin-top: 1.5rem;
   }
   .second-col {
@@ -492,9 +497,10 @@ footer {
     display: block;
   }
   .full-name {
-    font-size: 3.2rem;
-    margin-top: 1rem;
+    /* font-size: 3.2rem; */
+    margin-top: 3rem;
     text-align: center;
+    height: auto;
   }
   .descr {
     text-align: center;
